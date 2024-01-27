@@ -65,18 +65,18 @@ echo $JAVA_HOME
 
 ## Maven (Manually)
 
-- Download the Maven from `https://archive.apache.org/dist/maven/maven-3`, for example `apache-maven-3.6.1-bin.tar.gz`
+- Download the Maven from `https://archive.apache.org/dist/maven/maven-3`, for example `apache-maven-3.9.6-bin.tar.gz`
 - Extract the downloaded .tar.gz file
 
 ```bash
 pwd
-tar -xvzf apache-maven-3.6.1-bin.tar.gz -C ~/tools
+tar -xvzf apache-maven-3.9.6-bin.tar.gz -C ~/tools
 ```
 
 - Set the `MAVEN_HOME` environment variable in either `~/.bash_profile` or `~/.bashrc` and update the `PATH`
 
 ```bash
-export MAVEN_HOME=~/apache-maven-3.6.1
+export MAVEN_HOME=~/apache-maven-3.9.6
 export PATH=$PATH:$MAVEN_HOME/bin
 source ~/.bash_profile
 mvn -version
@@ -89,6 +89,7 @@ brew install --cask springtoolsuite
 ```
 
 - adapt maven settings config file `settings.xml`
+- set formatter, clean up and save actions
 
 ### Install lombok
 
