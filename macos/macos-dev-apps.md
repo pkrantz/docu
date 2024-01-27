@@ -18,8 +18,6 @@
 brew install iterm2
 ```
 
-Switch text to Nerd Fonts Mono.
-
 ## Oh my Posh`
 
 ```bash
